@@ -1,0 +1,19 @@
+:root {
+    --header-nav-height : 92px;
+    --black-color: #000000;
+    --text-color: #727272;
+    --font-hover-color: #FFAF91;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
