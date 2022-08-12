@@ -1,0 +1,118 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+    .header__menu-list {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media  (min-width: 740px) and (max-width:1023px) {
+     
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .container-monthly {
+        flex-wrap: wrap;
+        padding-top: 135px;
+    }
+
+    .container-monthly__description {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-monthly__description p,
+    .container-monthly__description h1 {
+        text-align: center;
+    }
+
+    .container-monthly__btn {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        margin-top: 30px;
+    }
+    
+    .container-monthly__btn-shop {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 12px;
+        height: 80px;
+    }
+
+    .container-monthly__btn-gift {
+        width: 80%;
+        height: 80px;
+        margin-bottom: 24px;
+    }   
+
+    .container-monthly__img-area {
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-most-popular {
+        margin-top: 420px;
+    }
+
+    .container-winter-cake {
+        padding-top: 280px;
+    }
+
+    .container-winter-cake__box {
+        text-align: center;
+    }
+    
+    .container-winter-cake__text{
+        width: 100%;
+    }
+
+
+    .container-winter-cake__img-box {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .container-try-cake {
+        padding-top: 200px;
+    }
+
+    .container-try-cake__item  {
+        padding: 24px 0;
+    }
+    
+
+    .container-most-popular__item-content {
+        width: 100%;
+    }
+
+    .container-most-popular__item-content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .container-most-popular__item-content::before,
+    .container-most-popular__item-content::after {
+        display: none;
+    }
+    
+    .container-most-popular__link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-most-popular__link h2 {
+        display: block;
+    }
+    
+    .container-most-popular {
+        height: 2410px;
+    }
+}
